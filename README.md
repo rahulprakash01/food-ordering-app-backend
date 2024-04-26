@@ -1,14 +1,6 @@
-# MERN-STEP-BY-STEP
+# MERN-STACK PROJECT
 
 ## Summary
-
-Step-by-step guide on how to build a simple MERN stack application. This is basically my notes plus an attempt to explain it further to my future myself.
-
-##### What we are going to do?
-
-We will be building a MERN full-stack Todo app with `React CDN` for simplicity, however, you could use this backend as a model to any front-end interface, as our back-end is 100% autonomous.
-
-We will be passing data with props, creating state, and connecting our Front-End to Back-End by fetching the data from our Back-End. After you style the application (I have provided three mockups/wireframe with color pallets), we are going to deploy our application with Heroku, so the world can see what we have accomplished.
 
 `This is meant for beginners as an exercise or learning project.`
 
