@@ -19,7 +19,7 @@ cloudinary.config({
 });
 
 const app = express();
-
+const PORT = process.env.PORT || 7000
 app.use(cors());
 
 app.use("/api/order/checkout/webhook", express.raw({ type: "*/*" }));
@@ -35,6 +35,6 @@ app.use("/api/my/restaurant", myRestaurantRoute);
 app.use("/api/restaurant", restaurantRoute);
 app.use("/api/order", orderRoute);
 
-app.listen(7000, () => {
+app.listen(PORT, () => {
   console.log("server started on localhost:7000");
 });
